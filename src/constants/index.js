@@ -20,37 +20,37 @@ const navLinks = [
 const documents = [
 {
 title: "Resume",
-description: "Latest professional resume",
+description: "Professional resume",
 file: "documents/Anas_Resume.pdf",
 },
 {
 title: "Bharti Airtel Certification",
-description: "Certified in modern frontend technologies",
+description: "Experience Letter from Bharti Airtel Ltd.",
 file: "documents/airtel_internship.pdf",
 },
 {
 title: "LTIMindtree Certification",
-description: "Advanced concepts in React & ecosystem",
+description: "Internship Certificate from LTIMindtree",
 file: "documents/Mindtree_certificate.pdf",
 },
 {
 title: "AWS Data Analytics",
-description: "Node.js, APIs, and Databases",
+description: "Internship certificate from AWS",
 file: "documents/AWS_Data_Analytics.pdf",
 },
 {
 title: "AWS Cloud Foundation",
-description: "Node.js, APIs, and Databases",
+description: "Internship certificate from AWS",
 file: "documents/AWS_Cloud_Foundation.pdf",
 },
 {
 title: "AWS Cloud Architect",
-description: "Node.js, APIs, and Databases",
+description: "Internship certificate from AWS",
 file: "documents/AWS_Cloud_Architect.pdf",
 },
 {
 title: "Cybersecurity Essentials",
-description: "Node.js, APIs, and Databases",
+description: "Cisco certified Cybersecurity Essentials certificate",
 file: "documents/Cybersecurity.pdf",
 },
 ];
