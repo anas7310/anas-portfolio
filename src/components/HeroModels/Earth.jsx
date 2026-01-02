@@ -11,7 +11,7 @@ import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Earth(props) {
-  const { nodes, materials } = useGLTF('/models/earth_planet_model.glb')
+  const { nodes, materials } = useGLTF('models/earth_planet_model.glb')
   return (
     <group {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]} scale={0.522}>
@@ -22,4 +22,4 @@ export function Earth(props) {
   )
 }
 
-useGLTF.preload('/models/earth_planet_model.glb')
+useGLTF.preload('models/earth_planet_model.glb')

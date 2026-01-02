@@ -21,49 +21,49 @@ const documents = [
 {
 title: "Resume",
 description: "Latest professional resume",
-file: "/documents/Anas_Resume.pdf",
+file: "documents/Anas_Resume.pdf",
 },
 {
 title: "Bharti Airtel Certification",
 description: "Certified in modern frontend technologies",
-file: "/documents/airtel_internship.pdf",
+file: "documents/airtel_internship.pdf",
 },
 {
 title: "LTIMindtree Certification",
 description: "Advanced concepts in React & ecosystem",
-file: "/documents/Mindtree_certificate.pdf",
+file: "documents/Mindtree_certificate.pdf",
 },
 {
 title: "AWS Data Analytics",
 description: "Node.js, APIs, and Databases",
-file: "/documents/AWS_Data_Analytics.pdf",
+file: "documents/AWS_Data_Analytics.pdf",
 },
 {
 title: "AWS Cloud Foundation",
 description: "Node.js, APIs, and Databases",
-file: "/documents/AWS_Cloud_Foundation.pdf",
+file: "documents/AWS_Cloud_Foundation.pdf",
 },
 {
 title: "AWS Cloud Architect",
 description: "Node.js, APIs, and Databases",
-file: "/documents/AWS_Cloud_Architect.pdf",
+file: "documents/AWS_Cloud_Architect.pdf",
 },
 {
 title: "Cybersecurity Essentials",
 description: "Node.js, APIs, and Databases",
-file: "/documents/Cybersecurity.pdf",
+file: "documents/Cybersecurity.pdf",
 },
 ];
 
 const words = [
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Ideas", imgPath: "images/ideas.svg" },
+  { text: "Concepts", imgPath: "images/concepts.svg" },
+  { text: "Designs", imgPath: "images/designs.svg" },
+  { text: "Code", imgPath: "images/code.svg" },
+  { text: "Ideas", imgPath: "images/ideas.svg" },
+  { text: "Concepts", imgPath: "images/concepts.svg" },
+  { text: "Designs", imgPath: "images/designs.svg" },
+  { text: "Code", imgPath: "images/code.svg" },
 ];
 
 const counterItems = [
@@ -75,44 +75,44 @@ const counterItems = [
 
 const logoIconsList = [
   {
-    imgPath: "/images/logos/company-logo-9.png",
+    imgPath: "images/logos/company-logo-9.png",
   },
   {
-    imgPath: "/images/logos/logo3.png",
+    imgPath: "images/logos/logo3.png",
   },
   {
-    imgPath: "/images/logos/company-logo-4.png",
+    imgPath: "images/logos/company-logo-4.png",
   },
   {
-    imgPath: "/images/logos/logo2.png",
+    imgPath: "images/logos/logo2.png",
   },
   {
-    imgPath: "/images/logos/logo5.png",
+    imgPath: "images/logos/logo5.png",
   },
   {
-    imgPath: "/images/logos/logo_44.png",
+    imgPath: "images/logos/logo_44.png",
   },
   {
-    imgPath: "/images/logos/logo_8.png",
+    imgPath: "images/logos/logo_8.png",
   },
   {
-    imgPath: "/images/logos/company-logo-5.png",
+    imgPath: "images/logos/company-logo-5.png",
   },
 ];
 
 const abilities = [
   {
-    imgPath: "/images/seo.png",
+    imgPath: "images/seo.png",
     title: "Quality Focus",
     desc: "Delivering high-quality results while maintaining attention to every detail.",
   },
   {
-    imgPath: "/images/chat.png",
+    imgPath: "images/chat.png",
     title: "Reliable Communication",
     desc: "Keeping you updated at every step to ensure transparency and clarity.",
   },
   {
-    imgPath: "/images/time.png",
+    imgPath: "images/time.png",
     title: "On-Time Delivery",
     desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
   },
@@ -121,54 +121,54 @@ const abilities = [
 const techStackImgs = [
   {
     name: "React Developer",
-    imgPath: "/images/logos/react.png",
+    imgPath: "images/logos/react.png",
   },
   {
     name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
+    imgPath: "images/logos/python.svg",
   },
   {
     name: "Backend Developer",
-    imgPath: "/images/logos/node.png",
+    imgPath: "images/logos/node.png",
   },
   {
     name: "Interactive Developer",
-    imgPath: "/images/logos/java.png",
+    imgPath: "images/logos/java.png",
   },
   {
     name: "Project Manager",
-    imgPath: "/images/logos/git.svg",
+    imgPath: "images/logos/git.svg",
   },
 ];
 
 const techStackIcons = [
   {
     name: "React Developer",
-    modelPath: "/models/react_logo-transformed.glb",
+    modelPath: "models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
     name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
+    modelPath: "models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
   },
    {
     name: "Java Developer",
-    modelPath: "/models/java.glb",
+    modelPath: "models/java.glb",
     scale: 1.2,
     rotation: [0, 0, 0],
   },
   {
     name: "Backend Developer",
-    modelPath: "/models/node-transformed.glb",
+    modelPath: "models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
     name: "Version Control",
-    modelPath: "/models/git-svg-transformed.glb",
+    modelPath: "models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
   },
@@ -178,8 +178,8 @@ const expCards = [
   {
     review:
       "Anas brought creativity and technical expertise to the team, significantly improving our application performance. His work has been invaluable in delivering faster and efficient experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo_exp_3.png",
+    imgPath: "images/exp1.png",
+    logoPath: "images/logo_exp_3.png",
     title: "Full Stack Developer",
     date: "November 2023 - Present",
     tech: ['Python','Java','React-Native', 'NodeJs','WebRTC', 'Socket.IO','MongoDB'],
@@ -199,8 +199,8 @@ const expCards = [
   {
     review:
       "Anas emerged as the 'Star Performer' with outstanding performance exhibited during IGNITE-2023 program with LTIMindtree.",
-    imgPath: "/images/exp_2.png",
-    logoPath: "/images/logo_exp_2.png",
+    imgPath: "images/exp_2.png",
+    logoPath: "images/logo_exp_2.png",
     title: "Graduate Engineer Trainee",
     date: "Februray 2023 - November 2023",
     tech: ['Java','SpringBoot','MySQL', 'React Js'],
@@ -213,8 +213,8 @@ const expCards = [
   {
     review:
       "Anas’ work in Bharti Airtel Ltd. brought a high level of quality and efficiency. We appreciate his efforts towards the working on creating a framework for assessing third parties & meet our product goals.",
-    imgPath: "/images/exp_3.png",
-    logoPath: "/images/logo_exp_1.png",
+    imgPath: "images/exp_3.png",
+    logoPath: "images/logo_exp_1.png",
     title: "Associate Software Engineer",
     date: "August 2022 - February 2023",
     tech: ['Java8','Oracle Weblogic', 'MySQL','SpringBoot', 'React Js', 'Docker'],
@@ -231,15 +231,15 @@ const expCards = [
 const expLogos = [
   {
     name: "logo1",
-    imgPath: "/images/logo1.png",
+    imgPath: "images/logo1.png",
   },
   {
     name: "logo2",
-    imgPath: "/images/logo2.png",
+    imgPath: "images/logo2.png",
   },
   {
     name: "logo3",
-    imgPath: "/images/logo3.png",
+    imgPath: "images/logo3.png",
   },
 ];
 
@@ -247,27 +247,27 @@ const socialImgs = [
   {
     name: "insta",
     url: "https://www.instagram.com/anasyar_khan",
-    imgPath: "/images/insta.png",
+    imgPath: "images/insta.png",
   },
   {
     name: "fb",
     url: "https://www.facebook.com/anas.yarkhan.3/",
-    imgPath: "/images/fb.png",
+    imgPath: "images/fb.png",
   },
   {
     name: "x",
     url: "https://www.x.com/anas10051",
-    imgPath: "/images/x.png",
+    imgPath: "images/x.png",
   },
   {
     name: "linkedin",
     url: "https://www.linkedin.com/in/anas-khan-0594471b7",
-    imgPath: "/images/linkedin.png",
+    imgPath: "images/linkedin.png",
   },
   {
     name: "github",
     url: "https://www.github.com/anas7310",
-    imgPath: "/images/github.png",
+    imgPath: "images/github.png",
   }
 ];
 

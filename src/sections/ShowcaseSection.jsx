@@ -48,7 +48,7 @@ const ShowcaseSection = () => {
           {/*LEFT*/}
           <div className="first-project-wrapper" ref={project1Ref}>
             <div className="image-wrapper">
-              <img src="/images/project_1.jpeg" alt="" />
+              <img src="images/project_1.jpeg" alt="" />
             </div>
             <div className="text-content">
               <div
@@ -79,7 +79,7 @@ const ShowcaseSection = () => {
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={project2Ref}>
               <div className="image-wrapper bg-[#ffefdb]">
-                <img src="/images/project_2.jpeg" alt="Translation Model" />
+                <img src="images/project_2.jpeg" alt="Translation Model" />
               </div>
               <div
                 style={{
@@ -101,7 +101,7 @@ const ShowcaseSection = () => {
             <div className="project" ref={project3Ref}>
               <div className="image-wrapper bg-[#ffefdb]">
                 <img
-                  src="/images/project_33.jpeg"
+                  src="images/project_33.jpeg"
                   alt="Uber Backend Microservice"
                 />
               </div>
